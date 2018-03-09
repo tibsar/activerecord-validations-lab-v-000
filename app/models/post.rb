@@ -5,3 +5,4 @@ class Post < ActiveRecord::Base
   validates :category, inclusion: { in: ["Fiction", "Non-Fiction"]}
 end
 
+VALID_CLICKBAIT = []
