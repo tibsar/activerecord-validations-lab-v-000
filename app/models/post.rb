@@ -10,4 +10,4 @@ VALID_CLICKBAIT = [
   /Secret/i, 
   /Top [0-9]*/i, 
   /Guess/i
-  ] 
+] 
