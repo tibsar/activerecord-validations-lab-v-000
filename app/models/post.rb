@@ -13,5 +13,5 @@ VALID_CLICKBAIT = [
 ] 
 
 def is_clickbait?
-  VALID_CLICKBAIT.none?{ 
+  VALID_CLICKBAIT.none?{ |pat| 
 end 
