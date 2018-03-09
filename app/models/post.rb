@@ -13,6 +13,7 @@ VALID_CLICKBAIT = [
 ] 
 
 def is_clickbait?
-  VALID_CLICKBAIT.none?{ |pat| pat.match title } 
-
+  if VALID_CLICKBAIT.none?{ |pat| pat.match title } 
+    errors.add
+  end 
 end 
