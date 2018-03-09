@@ -13,4 +13,5 @@ VALID_CLICKBAIT = [
 ] 
 
 def is_clickbait?
+  
 end 
