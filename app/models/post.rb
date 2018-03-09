@@ -8,4 +8,6 @@ end
 VALID_CLICKBAIT = [
   /Won't Believe/i],
   /Secret/i, 
-  /Top 
+  /Top [0-9]*/i, 
+  /Guess/i
+  ] 
