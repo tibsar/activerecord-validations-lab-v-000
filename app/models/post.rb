@@ -12,3 +12,5 @@ VALID_CLICKBAIT = [
   /Guess/i
 ] 
 
+def is_clickbait?
+end 
