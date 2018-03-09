@@ -14,6 +14,6 @@ VALID_CLICKBAIT = [
 
 def is_clickbait?
   if VALID_CLICKBAIT.none?{ |pat| pat.match title } 
-    errors.add
+    errors.add(:title, 'must be clickbait')
   end 
 end 
