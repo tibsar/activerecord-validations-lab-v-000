@@ -6,7 +6,7 @@ class Post < ActiveRecord::Base
 end
 
 VALID_CLICKBAIT = [
-  /Won't Believe/i],
+  /Won't Believe/i,
   /Secret/i, 
   /Top [0-9]*/i, 
   /Guess/i
